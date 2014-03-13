@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner">
+        <item>会员客户</item>
+        <item>内部员工</item>
+    </string-array>
+</resources>

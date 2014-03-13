@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dechi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.example.dechi.Login"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dechi.Register1"
+            android:label="@string/register1"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.inent.action.register1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dechi.Register2"
+            android:label="@string/register2"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.example.dechi.Register3"
+            android:label="@string/register3"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.example.dechi.Vip"
+            android:label="@string/vip_activity" >
+        </activity>
+        <activity
+            android:name="com.example.dechi.Company"
+            android:label="@string/com_activity" >
+        </activity>
+    </application>
+
+</manifest>

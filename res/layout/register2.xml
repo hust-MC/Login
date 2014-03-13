@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/newName"
+            style="@style/textview_style"
+            android:text="*姓名" />
+
+        <EditText
+            android:id="@+id/input_newName"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            style="@style/textview_style"
+            android:text="身份证号" />
+
+        <EditText
+            android:id="@+id/input_ID"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            style="@style/textview_style"
+            android:text="职务" />
+
+        <EditText
+            android:id="@+id/input_duty"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            style="@style/textview_style"
+            android:text="电话" />
+
+        <EditText
+            android:id="@+id/input_phone"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/mobile"
+            style="@style/textview_style"
+            android:text="*手机(短信接收)" />
+
+        <EditText
+            android:id="@+id/input_mobile"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            style="@style/textview_style"
+            android:text="传真" />
+
+        <EditText
+            android:id="@+id/input_fax"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button"
+            android:onClick="onClick_back"
+            android:text="后退" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button"
+            android:onClick="onClick_next"
+            android:text="继续" />
+    </LinearLayout>
+
+</LinearLayout>

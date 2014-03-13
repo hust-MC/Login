@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/comName"
+            style="@style/textview_style"
+            android:text="*单位名称" />
+
+        <EditText
+            android:id="@+id/input_comName"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/comName2"
+            style="@style/textview_style"
+            android:text="*单位简称" />
+
+        <EditText
+            android:id="@+id/input_comName2"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/country"
+            style="@style/textview_style"
+            android:text="所属国家" />
+
+        <EditText
+            android:id="@+id/input_country"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/city"
+            style="@style/textview_style"
+            android:text="所属地区" />
+
+        <EditText
+            android:id="@+id/input_city"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/legal"
+            style="@style/textview_style"
+            android:text="法人代表" />
+
+        <EditText
+            android:id="@+id/input_legal"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/addr"
+            style="@style/textview_style"
+            android:text="联系地址" />
+
+        <EditText
+            android:id="@+id/input_addr"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/mail"
+            style="@style/textview_style"
+            android:text="邮政编码" />
+
+        <EditText
+            android:id="@+id/input_mail"
+            style="@style/edittext_style"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button"
+            android:onClick="onClick_back"
+            android:text="后退" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button"
+            android:onClick="onClick_next"
+            android:text="继续" />
+    </LinearLayout>
+
+</LinearLayout>
